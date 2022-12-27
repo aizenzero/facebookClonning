@@ -1,0 +1,102 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(252, 252, 252, 0.534);
+}
+
+.facebook{
+    color: rgba(25, 25, 175, 0.822);
+}
+.email{
+    padding: 12px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.password{
+    padding: 12px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.login-btn{
+    width: 70px;
+    padding: 12px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.forgot{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.center-container-section{
+    background-color: rgba(162, 170, 177, 0.185); 
+    padding: 100px;
+}
+.center-container{
+    width: 500px;
+    height: 270px;
+    margin: 0 auto;
+    
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #fff  ;
+}
+
+.center-container h2{
+    margin-bottom: 10px;
+}
+.center-container p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.center-container-email{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.center-container-btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cancel-btn{
+    padding: 8px;
+    width: 80px;
+    border-radius: 5px;
+}
+.search-btn{
+    margin-left: 5px;
+    padding: 8px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.container-footer{
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    
+    text-align: center;
+    font-size: 15px;
+}
+
+.container-footer p{
+    margin-top: 100px;
+    text-align: center;
+}

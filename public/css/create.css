@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+  
+}
+
+.container{
+    border: 2px solid rgba(219, 212, 212, 0.527);
+    box-shadow: 3px 2px  rgb(218, 209, 209);
+    background-color: rgba(248, 247, 246, 0.842);
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+.first-container h1{
+    margin-bottom: 5px;
+}
+.first-container p{
+    margin-bottom: 10px;
+}
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.second-container-firstname{
+    padding: 10px;
+    width: 160px;
+    border-radius: 5px;
+}
+.second-container-lastname{
+    padding: 10px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.third-container-email{
+    margin-top: 15px;
+    padding: 10px;
+    width: 377px;
+    border-radius: 5px;
+    
+}
+
+.forth-container-password{
+    margin-top: 15px;
+    padding: 10px;
+    width: 377px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.birthday-text{
+    margin-bottom: 10px;
+}
+
+.birthday-section{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.month{
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+}
+.day{
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+}
+.year{
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.gender{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gender-section{
+    display: flex;
+    justify-content:space-between;
+}
+
+.female{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid rgba(3, 3, 3, 0.39);
+    padding: 8px;
+    width: 100px;
+}
+
+.male{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid rgba(3, 3, 3, 0.39);
+    padding: 8px;
+    width: 100px;
+}
+
+.custom{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid rgba(3, 3, 3, 0.39);
+    padding: 8px;
+    width: 100px;
+}
+
+.contact-information{
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.terms{
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.signup{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.signup-btn{
+    font-size: bold;
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+}
